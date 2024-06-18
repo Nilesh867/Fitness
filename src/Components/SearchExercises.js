@@ -36,7 +36,7 @@ const SearchExercises = ({setexercises,bodyPart,setBodyPart }) => {
 
     return (
         <Stack alignItems="center" mt= "37px"
-        justifyContent="center" p="20px">
+        justifyContent="center" p="20px" id = "search-bar">
             <Typography fontWeight={700} sx={{
                 fontSize:{lg :'44px', xs: '30px'}
             }}
@@ -45,7 +45,7 @@ const SearchExercises = ({setexercises,bodyPart,setBodyPart }) => {
                 Should Know
             </Typography>
 
-            <Box position="relative" mb= "72px">
+            <Box position="relative" mb= "72px" >
                 <TextField
                 sx ={{
                     input: {
@@ -54,7 +54,7 @@ const SearchExercises = ({setexercises,bodyPart,setBodyPart }) => {
                         borderRadius:'4px'
                             },
                             width: {lg: '900px',sm:'74vw', xs: '320px'},
-                            backgroundColor: '#fff', 
+                            backgroundColor: '#fff',
                             borderRadius: '40px'
                 }}
                 height="76px"
